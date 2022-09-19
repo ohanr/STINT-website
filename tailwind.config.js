@@ -9,7 +9,11 @@ module.exports = {
         'light_blue': '#e2edf1',
         'mid_blue': '#76b9f0',
         'dark_blue': '#1f628c',
+        'circle_blue': '#C9DFE7'
       },
+    },
+    fontFamily: {
+      'lexend': ['Lexend', 'sans-serif']
     },
   },
   plugins: [],

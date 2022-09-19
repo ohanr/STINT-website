@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
-.JoinUs{
-  border-left: 100%
+.lexend{
+  font-family: 'Lexend', sans-serif;
 }
 
 @tailwind base;
