@@ -7,18 +7,18 @@ const HomePage = () => {
         @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
       </style>
       <Navbar></Navbar>
-      <div class = "bg-light_blue pt-10 pb-32 w-full min-h-[200px]">
+      <div class = "bg-light_blue pt-20 pb-32 w-full min-h-[200px]">
         <div class = "bg-transparent pb-5 w-full lg:w-5/12 float-center lg:float-right">
-          <div className="mx-auto lg:mt-4 rounded-full bg-circle_blue object-center w-5/12 lg:w-7/12">
+          <div className="mx-auto lg:mt-20 xl:mt-12 rounded-full bg-circle_blue object-center w-5/12 lg:w-7/12">
             <img class = "object-center w-auto" src={require('./../Images/Hats.png')}/>
           </div>
         </div>
         <div class = "bg-transparent w-full lg:w-7/12 px-12 lg:px-0 lg:pl-20">
-          <p class = "lg:text-left lexend text-center text-4xl lg:w-9/12 lg:text-6xl lg:leading-none font-bold">
+          <p class = "lg:text-left lexend text-center text-4xl lg:w-8/12 lg:text-6xl lg:leading-[1.2] font-bold">
             Largest International Student Community in Australia
           </p>
-          <p class = "lg:text-left lexend pt-5 text-sm lg:text-lg lg:mr-24">
-          Gain personalised support from other international students in Australia and secure your dream job now!
+          <p class = "lg:text-left lexend pt-6 text-sm md:text-xl lg:mr-40">
+          Gain personalised support from other international students in Australia and access our exclsuive Job Board!
           </p>
           <div class = "lg:mr-36">
             <button class="bg-dark_blue text-white w-full font-bold mt-8 py-3 rounded-lg lg:hover:bg-dark_blue">
@@ -26,20 +26,23 @@ const HomePage = () => {
                   Join Our Community!
               </a>
             </button>
-            <div class = "pt-5 float-left w-6/12 pr-2">
+            <div class = "pt-5 pb-5 float-left w-6/12 pr-2">
               <button class="float-left bg-mid_blue w-full text-white font-bold py-3 rounded-lg lg:hover:bg-dark_blue">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScEg-PTGW04bk_ctv62nwj0t2gj_ZBI7BVQj82L4lQtb5AI2g/viewform" class="text-xs lg:text-xl lexend text-base block py-2 text-white bg-transparent rounded md:bg-transparent md:text-white md:p-0 dark:text-white">
                     Job Board
                 </a>
               </button>
             </div>
-            <div class = "pt-5 float-right w-6/12 pl-2">
+            <div class = "pt-5 pb-5 float-right w-6/12 pl-2">
               <button class="float-right bg-mid_blue w-full text-white font-bold py-3 rounded-lg lg:hover:bg-dark_blue">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScEg-PTGW04bk_ctv62nwj0t2gj_ZBI7BVQj82L4lQtb5AI2g/viewform" class="text-xs lg:text-xl lexend text-base block py-2 text-white bg-transparent rounded md:bg-transparent md:text-white md:p-0 dark:text-white">
                   For Companies
                 </a>
               </button>
             </div>
+            <p class = "lg:text-left lexend text-sm md:text-2xl">
+            Join over 400+ international students in Australia and secure your dream job now!
+            </p>
           </div>
         </div>
       </div>
