@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
     display: flex;
     padding: 20px;
+    width: 100%;
     justify-content: space-between;
     position: relative
 `;
@@ -12,7 +13,8 @@ const Title = styled.h1`
     text-align: justify;
     font-weight: bold;
     font-size: 30px;
-    colour: ${(props) => props.color};
+    color: ${(props) => props.color};
+    z-index: 2;
 `;
 
 const Text = styled.p`
@@ -20,15 +22,23 @@ const Text = styled.p`
     margin: 20px 0px;
     width: 70%;
     colour: ${(props) => props.color};
+    z-index: 2;
 `
 
 const OurVisionContainer = styled.div`
     width: 100%
 `;
 
+const Border = styled.div`
+    background-color: #1F628C;
+    width: 100wh;
+    height: 10vh;
+    z-index: 1;
+`;
+
 const OurVision = () => {
     return(
-        <Container>
+        <Container class = "w-full">
             <OurVisionContainer>
                 <Title color="black">Our Vision</Title>
                 <Text>
@@ -38,6 +48,12 @@ const OurVision = () => {
 
                 That’s why our vision is to deliver a better future for international students in Australia by transforming the way they are viewed - by employers, universities and governments alike.
                 </Text>
+                <Border>
+                   <Title color="white">
+                        Our Story So Far...
+                    </Title> 
+                </Border>
+                
             </OurVisionContainer>
         </Container>
     )
