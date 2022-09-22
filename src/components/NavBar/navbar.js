@@ -19,7 +19,7 @@ export default function Navbar({ fixed }) {
                 "lg:flex flex-grow items-right" +
                 (navbarOpen ? " flex" : " hidden")
               }>
-              <ul class="text-left lg:top-10 lg:absolute top-7 right-0 flex flex-col lg:p-0 mt-4 bg-transparent-50 rounded-lg border lg:flex-row lg:space-x-10 md:mt-0 md:text-sm lg:font-medium lg:border-0 lg:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900">
+              <ul class="text-left lg:top-10 lg:absolute top-0 right-0 flex flex-col lg:p-0 mt-4 bg-transparent-50 rounded-lg border lg:flex-row lg:space-x-10 md:mt-0 md:text-sm lg:font-medium lg:border-0 lg:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900">
                 <li>
                   <button class="xl:pr-10 xl:ml-72 bg-transparent text-gray-700 rounded font-bold md:py-2 px-4 rounded">
                     <a href="#" class="lexend text-base block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent lg:border-0 md:hover:text-mid_blue lg:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">

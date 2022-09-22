@@ -9,7 +9,9 @@ module.exports = {
         'light_blue': '#e2edf1',
         'mid_blue': '#76b9f0',
         'dark_blue': '#1f628c',
-        'circle_blue': '#C9DFE7'
+        'circle_blue': '#C9DFE7',
+        'outer_circle_blue': '#C8E1EA',
+        'outer_outer_circle_blue': "#75BED9"
       },
     },
     fontFamily: {
