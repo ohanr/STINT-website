@@ -11,7 +11,8 @@ module.exports = {
         'dark_blue': '#1f628c',
         'circle_blue': '#C9DFE7',
         'outer_circle_blue': '#C8E1EA',
-        'outer_outer_circle_blue': "#75BED9"
+        'outer_outer_circle_blue': "#75BED9",
+        'gray': '#E4E4E4'
       },
     },
     fontFamily: {

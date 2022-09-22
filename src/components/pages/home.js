@@ -1,4 +1,5 @@
 import Navbar from './../NavBar/navbar';
+import Footer from './../Footer/footer';
 
 const HomePage = () => {
     return (
@@ -108,7 +109,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div class = "bg-light_blue min-h-[500px]">HI BLUE</div>
+      <Footer></Footer>
     </div>
     );
   };
