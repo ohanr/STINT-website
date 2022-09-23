@@ -1,16 +1,12 @@
 import Navbar from "../NavBar/navbar";
 import React from "react";
-import Background from "../Background/aboutus";
-import OurVision from "../OurVision";
+import OurVision from "../OurVision/vision.js";
 
 const AboutUs = () => {
     return (
     <div>
-        <Navbar/>   
-        <Background/>                
-        <OurVision/>
-                     
-        
+        <Navbar/>                 
+        <OurVision/>  
     </div>
      
 
