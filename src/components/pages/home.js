@@ -58,7 +58,7 @@ const HomePage = () => {
         <p class = "text-4xl pt-5 lexend font-bold">Why Join Stint?</p>
         <p class = "px-5 pt-5 pb-10 lg:pb-20 text-lg lexend">Here at Stint, we are building a more diverse and inclusive Australia workforce.</p>
         <div class = "grid gap-y-5 lg:gap-y-0 grid-rows-4 grid-cols-4 pr-20 w-full bg-tranparent float-left lg:h-[45rem] lg:w-6/12">
-          <div class = "ml-16">
+          <div class = "ml-5 md:ml-16">
             <img class = "object-center" src={require('./../Images/Resources.png')}/>
           </div>
           <div class = "bg-white col-span-3 text-left pl-10 ">
@@ -69,7 +69,7 @@ const HomePage = () => {
               Gain access to weekly, helpful resources to inch you closer to landing a professional career in Australia. We offer our community benefits such as FREE CV reviews!
             </p>
           </div>
-          <div class = "ml-16">
+          <div class = "ml-5 md:ml-16">
             <img class = "object-center" src={require('./../Images/Community.png')}/>
           </div>
           <div class = "bg-white col-span-3 text-left pl-10 ">
@@ -80,8 +80,8 @@ const HomePage = () => {
             Connect with like-minded students and share personal experiences and questions to pick up traits of what successful applicants have done in the past.
             </p>
           </div>
-          <div class = "ml-16">
-            <img class = "object-center" src={require('./../Images/Events.png')}/>
+          <div class = "ml-5 md:ml-16">
+            <img class = "md:w-auto object-center" src={require('./../Images/Events.png')}/>
           </div>
           <div class = "bg-white col-span-3 text-left pl-10 ">
             <p class = "lexend font-bold text-lg">
@@ -91,7 +91,7 @@ const HomePage = () => {
             We hold exclusive events for our community members to help prepare them for every step of the recruitment process. From CV-Writing to assessment centres, we cover it all!
             </p>
           </div>
-          <div class = "ml-16">
+          <div class = "ml-5 md:ml-16">
             <img class = "object-center" src={require('./../Images/Notice Board.png')}/>
           </div>
           <div class = "bg-white col-span-3 text-left pl-10 ">
