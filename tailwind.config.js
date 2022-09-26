@@ -18,6 +18,18 @@ module.exports = {
     fontFamily: {
       'lexend': ['Lexend', 'sans-serif']
     },
+    keyframes: {
+      bounceSlow:{
+        '0%':   { transform: 'translateY(0)'},
+        '25%':  { transform: 'translateY(-5px)'},
+        '50%': { transform: 'translateY(0)'},
+        '75%': { transform: 'translateY(8px)'},
+        '100%': { transform: 'translateY(0)'}
+      }
+    },
+    animation:{
+      'bounce-slow': 'bounceSlow 3s linear infinite'
+    }
   },
   plugins: [],
 }

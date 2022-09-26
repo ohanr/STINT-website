@@ -11,9 +11,9 @@ const HomePage = () => {
       <div class = "bg-light_blue pt-5 lg:pt-28 pb-36 w-full min-h-[500px]">
         <div class = "bg-transparent pb-0 w-full lg:w-5/12 lg:float-right">
          <div class = "inline-grid items-center justify-items-center lg:pt-10">
-          <div class = "z-20 bg-outer_circle_blue rounded-full opacity-[.40] align-middle object-center w-6/12 lg:w-[30rem] lg:h-[30rem] col-span-full row-span-full"></div>
-          <div class = "z-30 bg-circle_blue rounded-full col-span-full row-span-full align-middle w-5/12 lg:w-[20rem] lg:h-[20rem]"></div>
-          <img class = "z-40 object-center col-span-full row-span-full lg:py-0 py-10 lg:w-[20rem] w-5/12 align-middle" src={require('./../Images/Hats.png')}/>
+          <div class = "z-20 bg-outer_circle_blue rounded-full opacity-[.40] align-middle object-center w-6/12 lg:w-[35rem] lg:h-[35rem] col-span-full row-span-full"></div>
+          <div class = "z-30 bg-circle_blue rounded-full col-span-full row-span-full align-middle w-5/12 lg:w-[25rem] lg:h-[25rem]"></div>
+          <img class = "motion-safe:animate-bounce-slow z-40 object-center col-span-full row-span-full lg:py-0 py-10 lg:w-[17rem] w-5/12 align-middle" src={require('./../Images/Hats.png')}/>
           {/* <div className="mx-auto rounded-full bg-outer_circle_blue z-0 col-span-full row-span-full align-middle object-center w-6/12 lg:w-[20rem] lg:h-[20rem]">
           <div className="mx-auto rounded-full bg-black z-1 object-center col-span-full row-span-full align-middle w-5/12 lg:w-[15rem] lg:h-[15rem]">
            
@@ -36,7 +36,7 @@ const HomePage = () => {
             </button>
             <div class = "pt-5 pb-5 float-left w-6/12 pr-2">
               <button class="float-left bg-mid_blue w-full text-white font-bold py-3 rounded-lg lg:hover:bg-dark_blue">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScEg-PTGW04bk_ctv62nwj0t2gj_ZBI7BVQj82L4lQtb5AI2g/viewform" class="text-xs lg:text-xl lexend text-base block py-2 text-white bg-transparent rounded md:bg-transparent md:text-white md:p-0 dark:text-white">
+                <a href="/job-board" class="text-xs lg:text-xl lexend text-base block py-2 text-white bg-transparent rounded md:bg-transparent md:text-white md:p-0 dark:text-white">
                     Job Board
                 </a>
               </button>
