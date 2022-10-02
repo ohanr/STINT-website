@@ -8,7 +8,7 @@ const HomePage = () => {
         @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
       </style>
       <Navbar></Navbar>
-      <div class = "bg-light_blue pt-5 lg:pt-28 pb-36 w-full min-h-[500px]">
+      <div class = "bg-light_blue pt-5 lg:pt-28 pb-12 lg:pb-36 w-full min-h-[500px]">
         <div class = "bg-transparent pb-0 w-full lg:w-5/12 xl:mt-0 xl:mr-12 lg:mt-16 lg:mr-10 lg:float-right">
          <div class = "inline-grid items-center justify-items-center lg:pt-10">
           <div class = "z-20 bg-outer_circle_blue rounded-full opacity-[.40] align-middle object-center w-6/12 xl:w-[35rem] xl:h-[35rem] col-span-full row-span-full"></div>
@@ -103,7 +103,7 @@ const HomePage = () => {
             </p>
           </div>
         </div>
-        <div class = "w-full lg:h-[45rem] py-10 lg:py-0 lg:float-right lg:w-6/12 grid place-items-center">
+        <div class = "w-full lg:h-[45rem] pt-0 pb-10 lg:py-10 lg:py-0 lg:float-right lg:w-6/12 grid place-items-center">
           <div class="aspect-w-16 aspect-h-9 flex align-center">
             <iframe class = "mx-auto object-contain sm:w-[640px] lg:w-[505px] lg:h-[285px] xl:w-[630px] xl:h-[355px] sm:h-[360px]" src="https://www.youtube.com/embed/DNq6yLNBiFQ" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
           </div>
