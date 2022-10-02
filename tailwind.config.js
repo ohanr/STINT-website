@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -14,7 +15,6 @@ module.exports = {
         'outer_outer_circle_blue': "#75BED9",
         'gray': '#E4E4E4'
       },
-    },
     fontFamily: {
       'lexend': ['Lexend', 'sans-serif']
     },
@@ -31,5 +31,7 @@ module.exports = {
       'bounce-slow': 'bounceSlow 3s linear infinite'
     }
   },
-  plugins: [],
+  },
+  plugins: [require('flowbite/plugin'),
+  require('tw-elements/dist/plugin')]
 }

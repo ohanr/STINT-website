@@ -30,7 +30,7 @@ export default function Navbar({ fixed }) {
                 </li>
                 <li>
                   <button class="xl:pr-7 lg:px-0 px-4 bg-transparent text-gray-700 rounded font-bold md:py-2 rounded">
-                    <a href="#" class="lexend pl-3 text-base block py-2 pr-7 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent lg:border-0 md:hover:text-mid_blue lg:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                    <a href="/companies" class="lexend pl-3 text-base block py-2 pr-7 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent lg:border-0 md:hover:text-mid_blue lg:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                       For Companies
                     </a>
                   </button>
