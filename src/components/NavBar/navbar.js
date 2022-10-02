@@ -50,7 +50,7 @@ export default function Navbar({ fixed }) {
                     }>
                       <ul class="bg-light_blue pr-5 py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                         <li>
-                          <a href="#" class="hover:text-mid_blue lexend pl-4 text-lg block py-2 pt-0 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                          <a href="about-us" class="hover:text-mid_blue lexend pl-4 text-lg block py-2 pt-0 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                             About Us 
                           </a>
                         </li>
