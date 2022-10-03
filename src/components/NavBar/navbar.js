@@ -38,7 +38,7 @@ export default function Navbar({ fixed }) {
                 <li class = "pl-4 lg:pl-0">
                   <button aria-controls="dropdown-default" aria-expanded="false" onClick={() => setDropdownOpen(!dropdownOpen)} id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex justify-between items-center py-2 pr-9 lg:pr-0 xl:pr-9 pl-3 w-full font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:mid_blue md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                     <button class= "xl:pr-0 lg:pt-0 bg-pr-5 transparent text-gray-700 rounded font-bold md:py-2 rounded">
-                      <a href="#" class="lexend text-base block py-1 pr-7 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent lg:border-0 md:hover:text-mid_blue lg:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                      <a class="lexend text-base block py-1 pr-7 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent lg:border-0 md:hover:text-mid_blue lg:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                         Learn More
                       </a>
                     </button>
