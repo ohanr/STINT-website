@@ -6,7 +6,7 @@ const Container = styled.div`
     justify-content: space-between;
     position: relative;
     width: 40%;
-    padding: 40px;
+    padding: 20px;
 `;
 
 const Title = styled.h1`

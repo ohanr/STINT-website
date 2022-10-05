@@ -7,7 +7,7 @@ const Container = styled.div`
     justify-content: space-between;
     position: relative;
     background-color: #e2edf1;
-    padding: 20px;
+    padding: 10px;
 `;
 
 const ValueContainer = styled.div`

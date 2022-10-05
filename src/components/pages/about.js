@@ -2,6 +2,7 @@ import Navbar from "../NavBar/navbar";
 import React from "react";
 import OurVision from "../OurVision/vision.js";
 import OurValues from "../OurValues/values";
+import OurTeam from "../OurTeam/team";
 
 const AboutUs = () => {
     return (
@@ -9,6 +10,7 @@ const AboutUs = () => {
         <Navbar/>                 
         <OurVision/>  
         <OurValues/>
+        <OurTeam/>
     </div>
      
 

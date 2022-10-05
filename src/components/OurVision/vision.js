@@ -13,7 +13,7 @@ const Container = styled.div`
 const Title = styled.h1`
     text-align: ${(props) => props.align || "justify"};
     font-weight: bold;
-    font-size: ${(props) => props.size || "40px"};
+    font-size: ${(props) => props.size || "7vw"};
     color: ${(props) => props.color};
 `;
 
@@ -40,9 +40,8 @@ const OurStoryContainer = styled.div`
 const Border = styled.div`
     background-color: #1F628C;
     width: 100%;
-    height: ${(props) => props.height || "60px"}; 
+    height: ${(props) => props.height || "8vw"}; 
     padding-left: 40px;
-    padding-top: 10px;
 `;
 
 const Oval = styled.div`
@@ -63,7 +62,8 @@ const Image = styled.img`
     width: 100%;
     margin-top: ${(props) => props.top || "10px"};
     position: relative;
-    z-index: 1
+    z-index: 1;
+    
 `;
 
 const WhiteBox = styled.div`
@@ -75,12 +75,15 @@ const WhiteBox = styled.div`
     border-radius: 55px;
     padding: 50px;
     position: relative;
-    z-index: 2
+    z-index: 2;
+    ${mobile({ width: "90%"})};
+    ${mobile({ margin: "auto"})};
 `;
 
 const Bwrapper = styled.div`
     margin-top: ${(props) => props.top || "-10px"};
     position: absolute;
+    ${mobile({ position: "relative"})}
 `;
 
 
@@ -94,7 +97,7 @@ const OurVision = () => {
                 <Text font="bold">That’s why our vision is to deliver a better future for international students in Australia by transforming the way they are viewed - by employers, universities and governments alike.</Text>   
             </OurVisionContainer>   
             <OurStoryContainer>
-                <Border height="90px">
+                <Border height="12vw">
                     <Title color="white">
                         Our Story So Far...
                     </Title> 
@@ -116,7 +119,7 @@ const OurVision = () => {
                 <Image src={image2} top="-20px"/>              
                 <Border height="20px"/>
                 <Oval>
-                    <Title color="white" align="center" size="30px">Towards a more equitable job landscape</Title>
+                    <Title color="white" align="center" size="3vw">Towards a more equitable job landscape</Title>
                 </Oval>
             </OurStoryContainer>                   
         </Container>
