@@ -13,7 +13,7 @@ const Container = styled.div`
 const Title = styled.h1`
     text-align: ${(props) => props.align || "justify"};
     font-weight: bold;
-    font-size: ${(props) => props.size || "7vw"};
+    font-size: ${(props) => props.size || "5vw"};
     color: ${(props) => props.color};
 `;
 
