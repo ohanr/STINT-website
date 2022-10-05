@@ -1,16 +1,16 @@
 import Navbar from "../NavBar/navbar";
 import React from "react";
-import Background from "../Background/aboutus";
-import OurVision from "../OurVision";
+import OurVision from "../OurVision/vision.js";
+import OurValues from "../OurValues/values";
+import OurTeam from "../OurTeam/team";
 
 const AboutUs = () => {
     return (
     <div>
-        <Navbar/>   
-        <Background/>                
-        <OurVision/>
-                     
-        
+        <Navbar/>                 
+        <OurVision/>  
+        <OurValues/>
+        <OurTeam/>
     </div>
      
 
