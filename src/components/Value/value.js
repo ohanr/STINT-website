@@ -7,14 +7,15 @@ const Container = styled.div`
     position: relative;
     width: 40%;
     padding: 20px;
+    ${mobile({ width: "100%"})}
 `;
 
 const Title = styled.h1`
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 3vh;
     color: black;
-    padding: 20px;
+    padding: 1vw;
 `;
 
 const Text = styled.p`
@@ -30,6 +31,8 @@ const ImageContainer = styled.div`
     background-color:white;
     margin-left: auto;
     margin-right: auto;
+    ${mobile({ width: "30vw"})}
+    ${mobile({ height: "30vw"})}
 
 `;
 

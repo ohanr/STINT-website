@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import test from "../Images/test.png"
-
+import { mobile } from "../../responsive";
 const Container = styled.div`
     width: 250px;
     height: 700px;
@@ -41,6 +41,8 @@ const Button = styled.button`
     position: absolute;
     margin-left: -115px;
     bottom: 0px;
+    ${mobile({ position: "relative"})};
+    ${mobile({ margin: "auto"})}
 `
 
 const URL = styled.a`
