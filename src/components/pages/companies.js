@@ -90,19 +90,46 @@ const Companies = () => {
       </div>
       <div class = "bg-light_blue">
         <p class = "lexend font-bold text-5xl pt-16">
-          Hire Through Stint
+          What can Stint do for you?
         </p>
         <p class = "lexend font-bold text-xl md:text-3xl px-[15%] pt-10">
           Reap the benefits of diversity by hiring from our community of ambitious and eager international students
         </p>
         <div class = "grid lg:gap-x-10 grid-cols-12">
           <div class = "col-span-12 lg:col-span-6">
-            <div class="p-6 h-[90%] my-10 lg:px-10 mx-auto lg:mx-0 lg:float-right w-11/12 lg:w-7/12 bg-white rounded-xl shadow-md">
-              <p class = "text-left  lexend pb-6 pt-2 text-3xl md:text-5xl text-dark_blue">
-                Premium 
+            <div class="relative p-6 pb-64 h-[90%] my-10 lg:px-10 mx-auto lg:mx-0 lg:float-right w-11/12 lg:w-10/12 xl:w-7/12 bg-white rounded-xl shadow-md">
+              <p class = "text-left  lexend pb-6 pt-2 text-3xl md:text-4xl text-dark_blue">
+                Hire through stint 
               </p>
               <p class = "lexend text-sm md:text-lg font-bold text-left py-5">
-                Gain exclusive features that will boost your chance of finding the perfet candidate
+                Gain access to Australia’s largest community of international students from over 36 countries and 18 institutions.
+              </p>
+              <p class = "lexend text-lg py-1 text-left">
+                <span class = "text-teal-500">&#10004;</span> Our comprehensive screening process ensures candidates fit your needs  
+              </p>
+              <p class = "lexend text-lg py-1 text-left">
+                <span class = "text-teal-500">&#10004;</span> We are a trusted partner in helping organisations manage their staffing needs
+              </p>
+              <p class = "lexend text-lg py-1 text-left">
+                <span class = "text-teal-500">&#10004;</span> No Hire No Fee
+              </p>
+              <div class="absolute bottom-0 left-1/2 w-full -translate-x-1/2"> 
+                <p class = "lexend text-2xl pb-10 pt-16 text-dark_blue">
+                  <span class = 'text-5xl'>$200</span> / Hire
+                </p>
+                <a href="https://docs.google.com/forms/d/1TA7KY1JKHQ6DORCv3aUx-QtwAd7QpOQ76Y4QQw4Qp9I/edit?fbclid=IwAR1_LW63wNIhKP8LtCyf5wxnMlvtyS6KzTWL9VcvD9W3ZFEflwQS_rxKeik" class="mb-7 px-10 inline-flex c py-2 px-3 text-2xl font-medium text-center text-white bg-mid_blue rounded-2xl hover:bg-dark_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700">
+                    Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class = "col-span-12 lg:col-span-6">
+          <div class="p-6 h-[90%] pb-64 relative my-10 lg:px-10 mx-auto lg:mx-0 lg:float-left w-11/12 lg:w-10/12 xl:w-7/12 bg-white rounded-xl shadow-md">
+          <p class = "text-left  lexend pb-6 pt-2 text-3xl md:text-4xl text-dark_blue">
+                Job Board Posting 
+              </p>
+              <p class = "lexend text-sm md:text-lg font-bold text-left py-5">
+                Gain exclusive features that launch your job into the international student community!
               </p>
               <p class = "lexend text-lg py-1 text-left">
                 <span class = "text-teal-500">&#10004;</span> Weekly reminder on the job
@@ -134,139 +161,113 @@ const Companies = () => {
               <p class = "lexend text-lg py-1 text-left">
                 <span class = "text-teal-500">&#10004;</span> Job preview
               </p>
-              <p class = "lexend text-2xl pb-10 pt-16 text-dark_blue">
-                <span class = 'text-5xl'>$30</span> / Listing
-              </p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqLfNYlye_7GkQLjPpUe77VilHvIdjz9FmBhq0I1hzhII2Yw/viewform" class="mb-7 px-10 inline-flex c py-2 px-3 text-2xl font-medium text-center text-white bg-mid_blue rounded-2xl hover:bg-dark_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700">
-                  Get Started
-              </a>
-            </div>
-          </div>
-          <div class = "col-span-12 lg:col-span-6">
-          <div class="mx-auto lg:mx-0 p-6 mb-10 lg:my-10 lg:px-10 w-11/12 lg:w-7/12 h-[90%] bg-white rounded-xl shadow-md">
-              <p class = "lexend text-left pb-6 pt-2 text-5xl text-dark_blue">
-                Starter 
-              </p>
-              <p class = "lexend text-lg font-bold text-left py-5">
-                Get your openings noticed among the international student community 
-              </p>
-              <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> Weekly reminder on the job
-              </p>
-              <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> Shared in Slack community
-              </p>
-              <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> Posting on job board
-              </p>
-              <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> Shown in search results
-              </p>
-              <p class = "lexend text-lg hidden lg:flex py-1 text-transparent text-left">
-                Job preview
-              </p>
-              <p class = "lexend text-lg py-1 hidden lg:flex text-transparent text-left">
-                Job preview
-              </p>
-              <p class = "lexend text-lg py-1 hidden lg:flex text-transparent text-left">
-                Job preview
-              </p>
-              <p class = "lexend text-lg py-1 hidden lg:flex text-transparent text-left">
-                Job preview
-              </p>
-              <p class = "lexend text-lg py-1 hidden lg:flex text-transparent text-left">
-                Job preview
-              </p>
-              <p class = "lexend text-lg py-1 hidden lg:flex text-transparent text-left">
-                Job preview
-              </p>
-              <p class = "lexend text-2xl pb-10 pt-16 text-dark_blue">
-                <span class = 'text-5xl'>Free</span> / Listing
-              </p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdedYuEZyr6ljimDukPdSXIOEKZi8x5j_u8XZHVIw26OMuHPw/viewform" class="mb-7 px-10 inline-flex items-center py-2 px-3 text-2xl font-medium text-center text-white bg-mid_blue rounded-2xl hover:bg-dark_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700">
-                  Get Started
-              </a>
+              <div class="absolute bottom-0 left-1/2 w-full -translate-x-1/2"> 
+                <p class = "lexend text-2xl pb-10 pt-16 text-dark_blue">
+                  <span class = 'text-5xl'>Free</span> / Listing (Basic)
+                </p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqLfNYlye_7GkQLjPpUe77VilHvIdjz9FmBhq0I1hzhII2Yw/viewform" class="mb-7 px-10 inline-flex c py-2 px-3 text-2xl font-medium text-center text-white bg-mid_blue rounded-2xl hover:bg-dark_blue focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700">
+                    Get Started
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class = "bg-light_blue pb-16 pt-8">
-        <div class = "m-5 lg:border-white border-0 rounded-xl lg:border-4 lg:shadow-2xl">
-          <p class = "text-left leading-[1.3] lexend font-bold px-16 lg:pt-5 text-5xl">
-            Event Management Platform 
-          </p>
-          <div class = "grid grid-cols-12 pt-6 px-16">
-            <div class = "col-span-12 lg:col-span-9">
-              <div class="h-full w-full flex flex-col justify-center pt-3 h-[100%] text-left my-auto lexend font-bold text-xl md:text-3xl pb-5">
-                <span> Running an event, conference or program for international students? </span>
-              </div>
+      <div class = "bg-white">
+        <div class = "mt-10 mx-5 xl:mx-24">
+          <div class = "grid grid-cols-12">
+            <div class = "col-span-12 lg:hidden">
+              <img class = "mx-auto z-40 object-center col-span-full row-span-full lg:py-0 py-10 lg:w-[80rem] w-8/12 align-middle" src={require('./../Images/Event Management.png')}/>
             </div>
-            <div class = "col-span-12 lg:col-span-3">
-              <button class="bg-mid_blue text-white w-full lg:w-10/12 float-left lg:float-right font-bold py-3 rounded-lg md:hover:bg-dark_blue">
+            <div class = "col-span-12 lg:col-span-6 pr-8 lg:mx-5 xl:mx-0">
+              <p class = "leading-[1.2] lexend text-6xl pb-6 font-bold text-left">
+                Manage your event through Stint
+              </p>
+              <p class = "lexend text-2xl text-left pb-10 lg:pb-24">
+                Confused or too busy to manage the logistics of an event, conference or program for international students? 
+              </p>
+              <button class="mb-10 bg-dark_blue text-white w-full lg:w-8/12 float-left font-bold mt-0 py-3 rounded-lg lg:hover:bg-dark_blue">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqLfNYlye_7GkQLjPpUe77VilHvIdjz9FmBhq0I1hzhII2Yw/viewform" class="text-xl lg:text-xl lexend text-base block py-2 text-white bg-transparent rounded md:bg-transparent md:text-white md:p-0 dark:text-white">
                     Get Started
                 </a>
-              </button>
+            </button>
+            </div>
+            <div class = "lg:flex hidden lg:col-span-6 pl-12">
+              <div class = "inline-grid items-center justify-items-center">
+                <img class = "z-40 object-center col-span-full row-span-full lg:py-0 py-10 lg:w-11/12 xl:w-7/12 align-middle" src={require('./../Images/Event Management.png')}/>
+              </div>
             </div>
           </div>
-          <div class = "px-16 pt-4">
-            <div class="my-5 align-top p-2 py-5 md:py-2 w-full mx-auto bg-white rounded-lg shadow-xl">
-              <div class = "grid grid-cols-12">
-              <div class = "rounded-lg col-span-2 hidden md:flex  lg:col-span-1">
-                  <img class = "bg-light_blue w-full h-fit rounded-lg" src={require('./../Images/Resources.png')}/>
+          <div class = "pb-12 pt-16 xl:gap-x-10 gap-x-5 gap-y-10 grid grid-cols-12">
+            <div class = "col-span-12 lg:col-span-6 bg-light_blue rounded-lg">
+              <div class = "h-full grid py-5 mx-5 grid-cols-12">
+                <div class = "lg:col-span-3 col-span-12">
+                  <div class = "h-full inline-grid items-center justify-items-center">
+                    <img class = "z-40 object-center col-span-full row-span-full lg:py-0 py-5 w-5/12 lg:w-11/12 xl:w-7/12 align-middle" src={require('./../Images/Community Management Expertise.png')}/>
+                  </div>
                 </div>
-                <div class = "h-full pl-5 lg:col-span-10 col-span-11 md:col-span-9">
-                  <p class = "lexend font-bold text-xl text-left">
+                <div class = "col-span-12 lg:pl-5 lg:col-span-9">
+                  <p class = "text-left lexend font-bold text-xl pb-4">
                     Community Management Expertise
                   </p>
-                  <p class = "lexend pt-6 text-lg text-left">
+                  <p class = "text-left lexend text-xl">
                     With extensive experience managing a community of international students, we know how to build and engage an audience, creating a safe space where everyone feels comfortable.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="my-5 align-top p-2 py-5 md:py-2 w-full mx-auto bg-white rounded-lg shadow-xl">
-              <div class = "grid grid-cols-12">
-              <div class = "rounded-lg col-span-2 hidden md:flex lg:col-span-1">
-                  <img class = "bg-light_blue w-full h-fit rounded-lg" src={require('./../Images/Community.png')}/>
+            <div class = "col-span-12 lg:col-span-6 bg-light_blue rounded-lg">
+              <div class = "h-full grid py-5 mx-5 grid-cols-12">
+                <div class = "lg:col-span-3 col-span-12">
+                  <div class = "h-full inline-grid items-center justify-items-center">
+                    <img class = "z-40 object-center col-span-full row-span-full lg:py-0 py-5 w-5/12 lg:w-11/12 xl:w-7/12 align-middle" src={require('./../Images/Slack Community.png')}/>
+                  </div>
                 </div>
-                <div class = "h-full pl-5 lg:col-span-10 col-span-11 md:col-span-9">
-                  <p class = "lexend font-bold text-xl text-left">
-                    Private Slack Channel
-                  </p>
-                  <p class = "lexend pt-6 text-lg text-left">
-                  You will be provided with your very own Slack channel, within the Stint Slack Community, to communicate both during and beyond the life of the event.  
-                  </p>
+                <div class = "relative col-span-12 lg:pl-5 lg:col-span-9">
+                  <div class="lg:absolute lg:top-1/2 lg:-translate-y-1/2"> 
+                    <p class = "text-left lexend font-bold text-xl pb-4">
+                      Private Slack Channel
+                    </p>
+                    <p class = "text-left lexend text-xl">
+                      You will be provided with your very own Slack channel, within the Stint Slack Community, to communicate both during and beyond the life of the event.  
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="my-5 align-top p-2 py-5 md:py-2 w-full mx-auto bg-white rounded-lg shadow-xl">
-              <div class = "grid grid-cols-12">
-                <div class = "rounded-lg hidden md:flex col-span-2 lg:col-span-1">
-                  <img class = "bg-light_blue w-full h-fit rounded-lg" src={require('./../Images/Events.png')}/>
+            <div class = "col-span-12 lg:col-span-6 bg-light_blue rounded-lg">
+              <div class = "h-full grid py-5 mx-5 grid-cols-12">
+                <div class = "lg:col-span-3 col-span-12">
+                  <div class = "h-full inline-grid items-center justify-items-center">
+                    <img class = "z-40 object-center col-span-full row-span-full lg:py-0 py-5 w-5/12 lg:w-11/12 xl:w-7/12 align-middle" src={require('./../Images/Promote Community.png')}/>
+                  </div>
                 </div>
-                <div class = "h-full pl-5 lg:col-span-10 col-span-11 md:col-span-9">
-                  <p class = "lexend font-bold text-xl text-left">
+                <div class = "col-span-12 lg:pl-5 lg:col-span-9">
+                  <p class = "text-left lexend font-bold text-xl pb-4">
                     Promote to the Stint Community
                   </p>
-                  <p class = "lexend pt-6 text-lg text-left">
-                    Spread the word about any events, conferences or programs to our community of international students eager to learn and develop their skills. 
+                  <p class = "text-left lexend text-xl">
+                    Spread the word about any events, conferences or programs to our community of international students eager to learn and develop their skills.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="mt-5 mb-10 align-top p-2 py-5 md:py-2 w-full mx-auto bg-white rounded-lg shadow-xl">
-              <div class = "grid grid-cols-12">
-              <div class = "rounded-lg hidden md:flex col-span-2 lg:col-span-1">
-                  <img class = "bg-light_blue w-full h-fit rounded-lg" src={require('./../Images/Notice Board.png')}/>
+            <div class = "col-span-12 lg:col-span-6 bg-light_blue rounded-lg">
+              <div class = "h-full grid py-5 mx-5 grid-cols-12">
+                <div class = "lg:col-span-3 col-span-12">
+                  <div class = "h-full inline-grid items-center justify-items-center">
+                    <img class = "z-40 object-center col-span-full row-span-full lg:py-0 py-5 w-5/12 lg:w-11/12 xl:w-7/12 align-middle" src={require('./../Images/Moderated Community.png')}/>
+                  </div>
                 </div>
-                <div class = "h-full pl-5 lg:col-span-10 col-span-11 md:col-span-9">
-                  <p class = "lexend font-bold text-xl text-left">
-                    Moderated for You
-                  </p>
-                  <p class = "lexend pt-6 text-lg text-left">
-                  With the support of our team of dedicated moderators, you can fully focus on running your event. Simply let us know what you want!
-                  </p>
+                <div class = "relative col-span-12 lg:pl-5 lg:col-span-9">
+                  <div class="lg:absolute lg:top-1/2 lg:-translate-y-1/2"> 
+                    <p class = "text-left lexend font-bold text-xl pb-4">
+                      Moderated for You
+                    </p>
+                    <p class = "text-left lexend text-xl">
+                      With the support of our team of dedicated moderators, you can fully focus on running your event. Simply let us know what you want!
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
