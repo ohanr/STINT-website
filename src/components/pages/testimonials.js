@@ -92,7 +92,7 @@ const options = {
           </p>
           <div class = "grid grid-cols-12 px-12">
             <div class = "my-5 lg-my-0 relative col-span-full lg:col-span-4 bg-light_blue rounded-3xl mx-3 xl:mx-8">
-              <p class = "lexend lg:text-xl xl:text-3xl font-bold px-10 lg:pb-[30%] xl:pb-[25%] pt-10 text-left">
+              <p class = "lexend lg:text-xl xl:text-3xl px-10 lg:pb-[30%] xl:pb-[25%] pt-10 text-left">
                 "Very random, I know sometimes slack might be a bit dead, but given there were 2 other similar communities that popped up at the same time, I find y'all are doing the best job so far, wanted to give some encouragement"
               </p>
               <p class = "text-right lg:absolute bottom-0 lexend text-lg lg:text-2xl px-10 pt-5 pb-10 right-0">
@@ -100,7 +100,7 @@ const options = {
               </p>
             </div>
             <div class = "my-5 lg-my-0 relative col-span-full lg:col-span-4 bg-light_blue rounded-3xl mx-3 xl:mx-8">
-              <p class = "lexend lg:text-xl xl:text-3xl font-bold px-10 pt-10 text-left">
+              <p class = "lexend lg:text-xl xl:text-3xl px-10 pt-10 text-left">
                 "Fantastic work team! As someone who moved to Australia myself, I can only attest to the power of community! Keep up the great work"
               </p>
               <p class = "text-right lg:absolute bottom-0 lexend text-lg lg:text-2xl px-10 pt-5 pb-10 right-0">
@@ -108,7 +108,7 @@ const options = {
               </p>
             </div>
             <div class = "my-5 lg-my-0 relative col-span-full lg:col-span-4 bg-light_blue rounded-3xl mx-3 xl:mx-8">
-              <p class = "lexend lg:text-xl xl:text-3xl font-bold px-10 pt-10 text-left">
+              <p class = "lexend lg:text-xl xl:text-3xl px-10 pt-10 text-left">
                 "I reckon what you guys are doing is awesome, cause you are helping a lot of people who sometimes don't even know where to ask for help. Keep doing all the great work guys"
               </p>
               <p class = "text-right lg:absolute bottom-0 lexend text-lg lg:text-2xl px-10 pt-5 pb-10 right-0">

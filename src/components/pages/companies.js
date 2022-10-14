@@ -21,7 +21,7 @@ const Companies = () => {
         </div>
         <div class = "bg-transparent w-full lg:pt-5 lg:w-7/12 px-12 lg:mr-80 lg:px-0 lg:pl-20">
         <p class = "text-xl lg:text-left text-left lexend lg:pt-6 text-sm text-dark_blue font-bold md:text-xl pb-5 lg:mr-80">
-          Businesses
+          Companies
           </p>
           <p class = "lg:text-left lexend text-left text-4xl lg:w-8/12 lg:text-6xl lg:leading-[1.3] font-bold">
             Hire your next game-changer
@@ -53,33 +53,33 @@ const Companies = () => {
           </p>
         </div>
       </div>
-      <div class = "grid px-5 lg:px-0 grid-cols-12 pb-24 bg-white">
-          <div class = "bg-transparent col-span-12 xl:col-span-4 mx-auto">
+      <div class = "grid px-5 pt-6 lg:px-3 grid-cols-12 pb-24 xl:pb-40 bg-white">
+        <div class = "bg-transparent col-span-12 xl:col-span-4 mx-auto">
             <div class="align-top p-6 max-w-screen-md xl:max-w-[400px] bg-white rounded-lg shadow-xl">
-                <img class = "mb-2 w-10 h-10 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" fill-rule="evenodd" viewBox="0 0 20 20" src={require('./../Images/Globe.png')}/>
-                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-left text-gray-900 dark:text-white">
-                    Knowledge of International Markets
-                </h5>
-                <p class="mb-3 font-normal text-left text-gray-500 dark:text-gray-400">
-                    Having staff that can bring new skills, attitudes and ideas can boost innovation in the workplace, thus exposing current staff to different cultures and working methods. This is a must in today’s globalised labour market.
-                </p>
+              <img class = "mb-2 mt-2 w-10 h-10 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" fill-rule="evenodd" viewBox="0 0 20 20" src={require('./../Images/Globe Knowledge.png')}/>
+              <h5 class="mb-2 mt-4 text-2xl font-semibold tracking-tight text-left text-gray-900 dark:text-white">
+                  Knowledge of International Markets
+              </h5>
+              <p class="mb-3 font-normal text-left text-gray-500 dark:text-gray-400">
+                  Having staff that can bring new skills, attitudes and ideas can boost innovation in the workplace, thus exposing current staff to different cultures and working methods. This is a must in today’s globalised labour market.
+              </p>
             </div>
           </div>
-          <div class = "bg-transparent col-span-12 py-10 xl:py-0 xl:col-span-4 mx-auto">
-            <div class="align-top p-6 max-w-screen-md xl:max-w-[400px] bg-white rounded-lg shadow-xl">
-                <img class = "mb-2 w-10 h-10 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" fill-rule="evenodd" viewBox="0 0 20 20" src={require('./../Images/Globe.png')}/>
-                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-left text-gray-900 dark:text-white">
-                    Global/Intercultural Fluency
-                </h5>
-                <p class="mb-3 font-normal text-left text-gray-500 dark:text-gray-400">
-                    Racially diverse companies demonstrates openness, inclusiveness, and sensitivity, which can lead to teams gaining new perspectives on existing problems.
-                </p>
+        <div class = "bg-transparent col-span-12 py-10 xl:py-0 xl:col-span-4 mx-auto">
+          <div class="h-full align-top p-6 max-w-screen-md xl:max-w-[400px] bg-white rounded-lg shadow-xl">
+              <img class = "mb-2 mt-2 w-10 h-10 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" fill-rule="evenodd" viewBox="0 0 20 20" src={require('./../Images/Globe.png')}/>
+              <h5 class="mb-2 mt-4 text-2xl font-semibold tracking-tight text-left text-gray-900 dark:text-white">
+                  Global/Intercultural Fluency
+              </h5>
+              <p class="mb-3 font-normal text-left text-gray-500 dark:text-gray-400">
+                  Racially diverse companies demonstrates openness, inclusiveness, and sensitivity, which can lead to teams gaining new perspectives on existing problems.
+              </p>
             </div>
           </div>
-          <div class = "bg-transparent col-span-12 xl:col-span-4 mx-auto">
-            <div class="align-top p-6 max-w-screen-md xl:max-w-[400px] bg-white rounded-lg shadow-xl">
-                <img class = "mb-2 w-10 h-10 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" fill-rule="evenodd" viewBox="0 0 20 20" src={require('./../Images/Globe.png')}/>
-                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-left text-gray-900 dark:text-white">
+          <div class = "bg-transparent pb-0 xl:pb-0 col-span-12 xl:col-span-4 mx-auto">
+            <div class="h-full align-top p-6 max-w-screen-md xl:max-w-[400px] bg-white rounded-lg shadow-xl">
+                <img class = "mt-2 mb-2 w-10 h-10 text-gray-500 dark:text-gray-400" aria-hidden="true" fill="currentColor" fill-rule="evenodd" viewBox="0 0 20 20" src={require('./../Images/Candidate.png')}/>
+                <h5 class="mb-2 mt-4 text-2xl font-semibold tracking-tight text-left text-gray-900 dark:text-white">
                     Acculturated Candidates
                 </h5>
                 <p class="mb-3 font-normal text-left text-gray-500 dark:text-gray-400">
@@ -99,16 +99,19 @@ const Companies = () => {
           <div class = "col-span-12 lg:col-span-6">
             <div class="relative p-6 pb-64 h-[90%] my-10 lg:px-10 mx-auto lg:mx-0 lg:float-right w-11/12 lg:w-10/12 xl:w-7/12 bg-white rounded-xl shadow-md">
               <p class = "text-left  lexend pb-6 pt-2 text-3xl md:text-4xl text-dark_blue">
-                Hire through stint 
+                Hire Through Stint 
               </p>
               <p class = "lexend text-sm md:text-lg font-bold text-left py-5">
                 Gain access to Australia’s largest community of international students from over 36 countries and 18 institutions.
               </p>
               <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> Our comprehensive screening process ensures candidates fit your needs  
+                <span class = "text-teal-500">&#10004;</span> Comprehensive screening process to ensure quality candidates  
               </p>
               <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> We are a trusted partner in helping organisations manage their staffing needs
+                <span class = "text-teal-500">&#10004;</span> Our diverse range of talent means there's always a star candidate waiting to be found
+              </p> 
+              <p class = "lexend text-lg py-1 text-left">
+                <span class = "text-teal-500">&#10004;</span> Trusted partners in helping organisations manage their staffing needs
               </p>
               <p class = "lexend text-lg py-1 text-left">
                 <span class = "text-teal-500">&#10004;</span> No Hire No Fee
@@ -124,7 +127,7 @@ const Companies = () => {
             </div>
           </div>
           <div class = "col-span-12 lg:col-span-6">
-          <div class="p-6 h-[90%] pb-64 relative my-10 lg:px-10 mx-auto lg:mx-0 lg:float-left w-11/12 lg:w-10/12 xl:w-7/12 bg-white rounded-xl shadow-md">
+          <div class="p-6 h-[90%] pb-56 relative my-10 lg:px-10 mx-auto lg:mx-0 lg:float-left w-11/12 lg:w-10/12 xl:w-7/12 bg-white rounded-xl shadow-md">
           <p class = "text-left  lexend pb-6 pt-2 text-3xl md:text-4xl text-dark_blue">
                 Job Board Posting 
               </p>
@@ -143,12 +146,12 @@ const Companies = () => {
               <p class = "lexend text-lg py-1 text-left">
                 <span class = "text-teal-500">&#10004;</span> Shown in search results
               </p>
+              <p class = "lexend text-xl py-1 text-left text-dark_blue pt-5">
+                Premium Features
+              </p>
               <p class = "lexend text-lg py-1 text-left">
                 <span class = "text-teal-500">&#10004;</span> Featured listing in job board
               </p>
-              <p class = "lexend text-lg py-1 text-left">
-                <span class = "text-teal-500">&#10004;</span> Providing tailored recommendations
-              </p> 
               <p class = "lexend text-lg py-1 text-left">
                 <span class = "text-teal-500">&#10004;</span> Sharing to mailing list
               </p>
