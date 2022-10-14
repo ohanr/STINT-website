@@ -11,6 +11,8 @@ const Container = styled.div`
     border-radius: 10px;
     margin-left: 30px;
     margin-top: 30px;
+    ${mobile({"margin-left": "15px",
+            "margin-right": "15px"})};
 `;
 
 const ImageContainer = styled.div `
