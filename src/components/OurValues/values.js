@@ -4,16 +4,18 @@ import Values from "../Value/value";
 
 //position absolute -> can overlay
 const Container = styled.div`
+    @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
     justify-content: space-between;
     position: relative;
     background-color: #e2edf1;
-    padding: 10px;
+    padding: 30px;
 `;
 
 const ValueContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+    margin-left: -20px;
 `;
 
 const Title = styled.h1`
@@ -21,6 +23,7 @@ const Title = styled.h1`
     font-weight: bold;
     font-size: ${(props) => props.size || "40px"};
     color: ${(props) => props.color};
+    font-family: "Lexend", sans-serif;  
 `;
 
 
