@@ -7,6 +7,7 @@ import AboutUs from './components/pages/about';
 import './App.css';
 import Navbar from './components/NavBar/navbar';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import React, { useEffect, useState } from "react";
 
 function App() {
   return (
