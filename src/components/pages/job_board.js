@@ -24,6 +24,14 @@ const JobBoard = () => {
       console.log(jobsData[i].fields)
     }
   }
+  
+  const [search, setSearch] = React.useState('');
+
+  const handleSearch = (event) => {
+    setSearch(event.target.value);
+  };
+
+
 
     return (
     <div>
@@ -32,10 +40,14 @@ const JobBoard = () => {
       </style>
       <Navbar></Navbar>
       <div class = "bg-light_blue pt-5 lg:pt-36 md:pb-8 w-full min-h-[500px] md:px-10 lg:px-20">
-        <p class = "lexend text-lg md:text-5xl md:pb-7 pb-3 pl-2 md:pl-5 text-left">
-          Jobs, Jobs, Jobs...
+        <p class = "lexend text-dark_blue text-lg md:text-5xl md:pb-7 pb-3 pl-2 md:pl-5 text-left">
+          Current Openings | Updated every Sunday!
         </p>
-        <div>
+        <label htmlFor="search">
+        Search by Task:
+        <input id="search" type="text" onChange={handleSearch} />
+        </label>
+        {/* <div>
           {jobsData.length > 0 ? (
             jobsData.map((record) => (
               <a href={record.fields.url} key={record.id}>
@@ -46,6 +58,54 @@ const JobBoard = () => {
           ) : (
             <p>Fetching Data...</p>
           )}
+        </div> */}
+        <div>
+          <table class = "w-full bg-white">
+            <tr>
+              <th>
+                Company Name
+              </th>
+              <th>
+                Company Logo
+              </th>
+              <th>
+                Job Role
+              </th>
+              <th class = "w-[50%]">
+                Job Description
+              </th>
+            </tr>
+            {jobsData.length > 0 ? (
+              jobsData.map((record) => (
+                search.length === 0 || 
+                (typeof(record.fields["Company Name"]) === 'string'? record.fields["Company Name"].toLocaleLowerCase().includes(search.toLocaleLowerCase()) : false) ||
+                (typeof(record.fields["Job Description"]) === 'string'? record.fields["Job Description"].toLocaleLowerCase().includes(search.toLocaleLowerCase()) : false) ||
+                (typeof(record.fields["Job Role"]) === 'string'? record.fields["Job Role"].toLocaleLowerCase().includes(search.toLocaleLowerCase()) : false) 
+                ? 
+                  <tr class = "border-t-2">
+                    <td class = "h-10 w-10 m-3">
+                      <img src = {record.fields["Company Logo"][0].url}/>
+                    </td>
+                    <td class = "">
+                      <p>{record.fields["Company Name"]}</p>
+                    </td>
+                    <td class = "">
+                      <p>{record.fields["Job Role"]}</p>
+                    </td>
+                    <td class = "text-left">
+                      <p>{record.fields["Job Description"]}</p>
+                    </td>
+                  </tr>:
+                  <span></span>
+              ))
+            ) : (
+              <tr>
+                <td colspan = "3">
+                  Fetching Data...
+                </td>
+              </tr>
+            )}     
+          </table>
         </div>
       </div>
       <Footer></Footer>
