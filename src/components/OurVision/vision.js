@@ -2,6 +2,8 @@ import styled from "styled-components";
 import ourVisionImg from "../Images/OurVision.png"
 import background from "../Images/AboutUsBackground.png"
 import image1 from "../Images/OurStoryImg1.png"
+import image2 from "../Images/Yochi.JPG"
+import image3 from "../Images/Yochi2.JPG"
 import { mobile } from "../../responsive";
 
 //position absolute -> can overlay
@@ -16,7 +18,7 @@ const Container = styled.div`
 const Title = styled.h1`    
     margin-left: auto;
     margin-right: auto;
-    margin-top: ${(props) => props.top};
+    padding: ${(props) => props.padding};
     bottom: ${(props) => props.bottom};
     left: 0;
     right: 0;
@@ -28,6 +30,7 @@ const Title = styled.h1`
     position: ${(props) => props.position||"relative"};
     z-index: 2;
     ${mobile({ margin: "auto"})};
+    ${mobile({ position: "relative"})};
 `;
 
 const Text = styled.p`
@@ -64,38 +67,40 @@ const Image = styled.img`
 
 const OurStoryContainer = styled.div`
     width: 100%;
+    height: 113vw;
     position: relative;
-    background-color:white;
     padding-top: 20px;
+    background-image: url(${background});
+    background-size: 100%;
+    ${mobile({ height: "auto"})};
+    ${mobile({ background: "white"})};
 
 `;
 
-const Background = styled.img`
-    width: 100%;
-    height: 255vh;
-    position: absolute;
-    ${mobile({ visibility: "hidden"})};
-
-`;
 
 const Box = styled.div`
     width: 35%;
     margin-left: ${(props) => props.left};
     margin-right: ${(props) => props.right};
     margin-top: ${(props) => props.top};
+    bottom: ${(props) => props.bottom};
     padding: 20px;
-    position: relative;
+    position: ${(props) => props.position || "relative"};
     z-index: 2;
     ${mobile({ width: "90%"})};
     ${mobile({ margin: "auto"})};
+    ${mobile({ position: "relative"})};
 `;
 
 const Bwrapper = styled.div`
-    margin-top: ${(props) => props.top || "100px"};
-    position: relative;
+    height: 65%;
+    width: 100%;
+    margin-top: ${(props) => props.top};
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     ${mobile({ margin: "auto"})};
+    ${mobile({ height: "auto"})};
 `;
 
 
@@ -113,29 +118,28 @@ const OurVision = () => {
             </OurVisionContainer> 
 
             <OurStoryContainer> 
-                <Background src={background}/>                   
-                <Title top="20px" align="center" size="4vw">
+                <Title top="1vh" align="center" size="4vw">
                     Our Story So Far...
                 </Title>                      
-                <Bwrapper>                                      
-                    <Box left="80px">
+                <Bwrapper top="7vw">                                      
+                    <Box left="7%">
                         <Title size="25px" >The "unlikely" dream</Title>
                         <Text>For international students, leaving behind the comfort and familiarity of their home and moving abroad to Australia symbalises their aspirations for a better education, career prospects and ultimately, a better future.{"\n"}</Text>
                         <Text>However, from being deemed ineligible due to their PR and visa status, to a lack of familiarity with the application process and minimal  support available,  the job-searching experience is an isolating and disempowering one.{"\n"}</Text>
                         <Text>As a result, for the majority of students, the prospect of building a life in Australia is at best, unrealistic and at most, virtually improbable…{"\n"}</Text>
                         <Image width="100%" src={image1}/>
                     </Box>
-                    <Box left="15%" top="20px">
-                        <Image width="100%" src={image1}/>
+                    <Box left="55%" position="absolute" bottom="0">
+                        <Image width="100%" src={image2}/>
+                        <Image width="100%" src={image3}/>
                         <Title size="25px">Unlocking the doors of opportunity</Title>
                         <Text>In response to the barriers and difficulties faced by international students, four University of Melbourne students created Stint - an online platform and community dedicated to helping students land relevant jobs and internships  - <b>right here in Australia.</b>{"\n"}</Text>
                         <Text>While we are committed to empowering and supporting students, we also aim to dismantle and reform the underlying structures and pervasive misconceptions preventing students from being given a fair chance at a future working in Australia.{"\n"}</Text>
                     </Box> 
                 </Bwrapper>                     
-                <Title align="center" size="30px" top="15%">Towards a more diverse and inclusive workforce</Title>
-              
-                
-            </OurStoryContainer>                   
+            <Title align="center" size="30px" position="absolute" bottom="0" padding="20px">Towards a more diverse and inclusive workforce</Title>     
+            </OurStoryContainer>  
+                            
         </Container>
     )
 }
