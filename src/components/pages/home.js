@@ -1,5 +1,6 @@
 import Navbar from './../NavBar/navbar';
 import Footer from './../Footer/footer';
+import { format } from 'react-string-format';
 
 const HomePage = () => {
     return (
